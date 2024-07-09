@@ -124,11 +124,11 @@ html, body {
 
 @media (max-width: 360px) {
     .logo h3 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .logo img {
-        width: 25px;
+        width: 20px;
     }
 
     .content .Lista-menu {
@@ -144,9 +144,9 @@ html, body {
     }
 
     .content .Lista-menu li a {
-        padding: 1rem 0.5rem;
-        font-size: 1.2rem;
-        width: 100%; /* Garante que os links ocupem toda a largura disponível */
+        padding: 0.3rem 0.2rem;
+        font-size: 1.25rem;
+        width: 50%; /* Garante que os links ocupem toda a largura disponível */
     }
 }
 
@@ -390,13 +390,13 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: white;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem 0;
 }
 
 .contatos h3 {
-    font-size: 6rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
 }
 
@@ -404,7 +404,7 @@ html, body {
     width: 700px;
     display: flex;
     justify-content: space-around; /* Espaçamento entre os ícones */
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .contatos-secao i {

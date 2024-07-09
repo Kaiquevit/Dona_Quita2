@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Permanent+Marker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,24 +10,18 @@
     font-family: "Lilita One", sans-serif;
 }
 
-html {
-    width: 100vw;
-    height: 100vh;
-    font-size: 62.5%;
-    overflow-x: hidden;
-}
-
-body {
-    margin: 0;
-    padding: 0;
+html, body {
     width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita a barra de rolagem horizontal */
+    font-size: 62.5%; /* Define o tamanho da fonte base para 10px */
 }
 
-/*menu*/
-
+/* Estilos para o menu */
 .content {
-    width: 100vw;
+    width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -74,29 +69,6 @@ body {
     color: #e51010;
 }
 
-.first-section {
-    height: 100vh;
-    background-image: url(./Potato-Chips.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-}
-
-.conteudo_principal h1 {
-    font-size: 4rem;
-}
-
-.conteudo_principal h2 {
-    font-size: 3rem;
-}
-
 @media (max-width: 1024px) {
     .content {
         padding: 0 3rem;
@@ -105,14 +77,6 @@ body {
     .content .Lista-menu li a {
         padding: 1rem 1.5rem;
         font-size: 1.4rem;
-    }
-
-    .conteudo_principal h1 {
-        font-size: 3.6rem;
-    }
-
-    .conteudo_principal h2 {
-        font-size: 2.8rem;
     }
 }
 
@@ -133,14 +97,6 @@ body {
         padding: 0.5rem 1rem;
         font-size: 1.3rem;
     }
-
-    .conteudo_principal h1 {
-        font-size: 3.2rem;
-    }
-
-    .conteudo_principal h2 {
-        font-size: 2.4rem;
-    }
 }
 
 @media (max-width: 480px) {
@@ -152,6 +108,10 @@ body {
         width: 30px;
     }
 
+    .content {
+        padding: 0 1rem; /* Ajuste o padding conforme necessário para telas menores */
+    }
+
     .content .Lista-menu {
         justify-content: space-around;
     }
@@ -160,15 +120,8 @@ body {
         padding: 0.5rem 0.3rem;
         font-size: 1rem;
     }
-
-    .conteudo_principal h1 {
-        font-size: 2.8rem;
-    }
-
-    .conteudo_principal h2 {
-        font-size: 2rem;
-    }
 }
+
 @media (max-width: 360px) {
     .logo h3 {
         font-size: 1.4rem;
@@ -195,7 +148,62 @@ body {
         font-size: 1.2rem;
         width: 100%; /* Garante que os links ocupem toda a largura disponível */
     }
+}
 
+.first-section {
+    height: 100vh;
+    background-image: url(./Potato-Chips.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.conteudo_principal h1 {
+    font-size: 4rem;
+}
+
+.conteudo_principal h2 {
+    font-size: 3rem;
+}
+
+@media (max-width: 1024px) {
+    .conteudo_principal h1 {
+        font-size: 3.6rem;
+    }
+
+    .conteudo_principal h2 {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteudo_principal h1 {
+        font-size: 3.2rem;
+    }
+
+    .conteudo_principal h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo_principal h1 {
+        font-size: 2.8rem;
+    }
+
+    .conteudo_principal h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 360px) {
     .conteudo_principal h1 {
         font-size: 2.4rem;
     }
@@ -227,7 +235,7 @@ body {
     margin-bottom: 3rem;
 }
 
-/*Sobre Nós*/
+/* Sobre Nós */
 .sobre_nos {
     background-color: #1f1e1f;
     width: 100%;
@@ -308,6 +316,7 @@ body {
     }
 }
 
+/* Produtos */
 .Produtos {
     width: 100vw;
     padding: 5rem 10rem;
@@ -372,8 +381,7 @@ body {
         width: 100%;
     }
 }
-/*Contatos*/
-/* Contatos */
+
 /* Contatos */
 .contatos {
     width: 100%;

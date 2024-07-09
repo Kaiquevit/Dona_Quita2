@@ -392,7 +392,7 @@ html, body {
     align-items: center;
     font-size: 1.4rem;
     color: white;
-    padding-bottom: 2rem 0;
+    padding: 2rem 0;
 }
 
 .contatos h3 {
@@ -403,14 +403,14 @@ html, body {
 .contatos-secao {
     width: 700px;
     display: flex;
-    justify-content: space-around; /* Espaçamento entre os ícones */
+    justify-content: space-around;
     font-size: 1.6rem;
 }
 
 .contatos-secao i {
     margin-right: 1rem;
     cursor: pointer;
-    transition: color 0.3s ease; /* Transição para a cor do ícone */
+    transition: color 0.3s ease;
 }
 
 .contatos-secao span {
@@ -418,5 +418,72 @@ html, body {
 }
 
 .contatos-secao i:hover, .contatos-secao i.active {
-    color: #e51010; /* Cor vermelha quando hover ou ativo */
+    color: #e51010;
 }
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .contatos h3 {
+        font-size: 2.5rem;
+    }
+
+    .contatos-secao {
+        width: 100%;
+        max-width: 500px; /* Limita a largura máxima da seção de contatos */
+        font-size: 1.4rem;
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha, se necessário */
+    }
+
+    .contatos-secao i {
+        margin-right: 0.5rem;
+    }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+    .contatos h3 {
+        font-size: 2rem;
+    }
+
+    .contatos-secao {
+        width: 100%;
+        max-width: 300px; /* Limita a largura máxima da seção de contatos */
+        font-size: 1.2rem;
+        flex-direction: column; /* Alinha os itens verticalmente em telas pequenas */
+        align-items: center; /* Centraliza os itens verticalmente */
+    }
+
+    .contatos-secao i {
+        margin-right: 0;
+        margin-bottom: 1rem; /* Adiciona espaço inferior entre os ícones */
+    }
+
+    .contatos-secao span {
+        margin-bottom: 1rem; /* Adiciona espaço inferior entre os ícones */
+    }
+}
+
+/* Responsividade para dispositivos pequenos */
+@media (max-width: 360px) {
+    .contatos h3 {
+        font-size: 1.8rem;
+    }
+
+    .contatos-secao {
+        width: 100%;
+        max-width: 280px; /* Limita a largura máxima da seção de contatos */
+        font-size: 1rem;
+        flex-direction: column; /* Alinha os itens verticalmente em telas pequenas */
+        align-items: center; /* Centraliza os itens verticalmente */
+    }
+
+    .contatos-secao i {
+        margin-right: 0;
+        margin-bottom: 0.5rem; /* Adiciona espaço inferior entre os ícones */
+    }
+
+    .contatos-secao span {
+        margin-bottom: 0.5rem; /* Adiciona espaço inferior entre os ícones */
+    }
+}
+

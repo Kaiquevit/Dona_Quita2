@@ -334,7 +334,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9e001;
+    background-color: #fbea54;
 }
 
 .Produtos h2 {
@@ -351,7 +351,7 @@ html, body {
 
 .produto {
     width: calc(25% - 2rem);
-    background: #f9e001;
+    background: #fbea54;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s;
@@ -397,7 +397,7 @@ html, body {
 /* Contatos */
 .contatos {
     width: 100%;
-    background-color:#911919 ;
+    background-color:#f01e3e ;
     display: flex;
     flex-direction: column;
     justify-content: center;

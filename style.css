@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     list-style: none;
     border: none;
     text-decoration: none;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Montserrat", sans-serif;
 }
 
 html, body {
@@ -40,7 +40,7 @@ html, body {
     color: white;
     font-size: 2rem;
     margin-left: 1rem;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: "Montserrat", sans-serif;
 }
 
 .logo img {

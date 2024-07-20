@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Permanent+Marker&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
     list-style: none;
     border: none;
     text-decoration: none;
-    font-family: 'Permanent Marker',cursive;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 html, body {
@@ -41,7 +40,7 @@ html, body {
     color: white;
     font-size: 2rem;
     margin-left: 1rem;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 .logo img {
@@ -188,7 +187,7 @@ html, body {
     font-size: 6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 .first-section h2 {
@@ -249,10 +248,10 @@ html, body {
 
 /* Sobre Nós */
 .sobre_nos {
-    background-color: #f70808;
+    background-color: #911919;
     width: 100%;
     padding: 5rem 2rem;
-    color: rgb(251, 255, 4);
+    color: rgb(15, 15, 15);
     display: flex;
     align-items: center;
     justify-content: center;

@@ -7,7 +7,7 @@
     list-style: none;
     border: none;
     text-decoration: none;
-    font-family: cursive;
+    font-family: 'Permanent Marker',cursive;
 }
 
 html, body {
@@ -41,7 +41,7 @@ html, body {
     color: white;
     font-size: 2rem;
     margin-left: 1rem;
-    font-family:  cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .logo img {
